@@ -46,7 +46,6 @@ import { ClassNames } from "@emotion/react";
 const BACKEND_URL = "https://tripcount-back-production.up.railway.app";
 
 // dialog card Material UI STARTS HERE
-// это
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
     "& .MuiDialogContent-root": {
         padding: theme.spacing(2),
@@ -55,15 +54,9 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
         padding: theme.spacing(1),
     },
 }));
-// и это - компоненты
 
 const BootstrapDialogTitle = (props) => {
     const { children, onClose, ...other } = props;
-
-    // вот так делать можно, делаешь conditional и если он исполняется - срабатывает этот return. если 5 > 6 === false - сработает следующий ретёрн
-    // if (5 > 6) {
-    //     return <p>Жума лохстер</p>;
-    // }
 
     return (
         <DialogTitle sx={{ m: 0, p: 2 }} {...other}>
