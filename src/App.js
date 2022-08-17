@@ -43,7 +43,7 @@ import axios from "axios";
 import { ClassNames } from "@emotion/react";
 
 // const BACKEND_URL = "http://localhost:8080/hotel";
-const BACKEND_URL = "https://saparga-back.vercel.app/hotel";
+const BACKEND_URL = "https://tripcount-back-production.up.railway.app";
 
 // dialog card Material UI STARTS HERE
 // это
