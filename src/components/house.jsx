@@ -3,9 +3,9 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import ToggleButton from "@mui/material/ToggleButton";
 import axios from "axios";
 import React from "react";
-import { REACT_APP_BACKEND_URL } from "../constants/constants";
+// import { REACT_APP_BACKEND_URL } from "../constants/constants";
 
-const BACKEND_URL = `${process.env.REACT_APP_BACKEND_URL}/hotel`;
+const BACKEND_URL = `https://tripcount-back-production.up.railway.app/hotel`;
 
 // const BACKEND_URL = "https://saparga-back.vercel.app/hotel";
 export const HouseComponent = ({ handleChange, house }) => {

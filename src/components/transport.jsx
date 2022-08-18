@@ -3,12 +3,12 @@ import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import axios from "axios";
 import React from "react";
-import { REACT_APP_BACKEND_URL } from "../constants/constants";
+// import { REACT_APP_BACKEND_URL } from "../constants/constants";
 
-const backEndURL_TAXI = `${process.env.REACT_APP_BACKEND_URL}/transport`;
+const backEndURL_TAXI = `https://tripcount-back-production.up.railway.app/transport`;
 // const BACKEND_URL = `${process.env.REACT_APP_BACKEND_URL}/hotel`;
 
-const backEndURL_ANYTIME = `${process.env.REACT_APP_BACKEND_URL}/anytime`;
+// const backEndURL_ANYTIME = `${process.env.REACT_APP_BACKEND_URL}/anytime`;
 
 export const TransportComponent = ({ handleChange, transport }) => {
     const [parsedTaxi, setParsedTaxi] = React.useState(0);
