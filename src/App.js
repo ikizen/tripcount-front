@@ -147,23 +147,23 @@ function Cards() {
         setSum(sum);
     }, [house, sliderDay, transport, places]);
 
-    React.useEffect(() => {
-        axios.get(`${BACKEND_URL}`).then((response) => {
-            parsed(response.data);
-        });
-        console.log(parsed);
-    }, []);
+    // React.useEffect(() => {
+    //     axios.get(`${BACKEND_URL}`).then((response) => {
+    //         parsed(response.data);
+    //     });
+    //     console.log(parsed);
+    // }, []);
 
     const handleChangeHouse = (event, newHouse) => {
         setHouse(newHouse);
-        const value = event.target.value;
+        // const value = event.target.value;
     };
     const handleChangeTransport = (event, newTransport) => {
         setTransport(newTransport);
-        const value = event.target.value;
+        // const value = event.target.value;
     };
     const handleChangeDay = (event, day) => {
-        const value = event.target.value;
+        // const value = event.target.value;
         setSliderDay(day);
     };
     const pickPlaces = (event, value) => {
@@ -173,9 +173,9 @@ function Cards() {
 
         setPlaces(placeValue);
     };
-    const openCard = () => {
-        setOpen((prev) => !prev);
-    };
+    // const openCard = () => {
+    //     setOpen((prev) => !prev);
+    // };
     const handleClickOpen = () => {
         setOpen(true);
     };
