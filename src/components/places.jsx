@@ -2,7 +2,7 @@ import Autocomplete from "@mui/material/Autocomplete";
 import TextField from "@mui/material/TextField";
 // import { REACT_APP_BACKEND_URL } from "../constants/constants";
 
-export const PlacesComponent = ({ placeList, pickPlaces, astPlaceList }) => {
+export const PlacesComponent = ({ placeList, pickPlaces }) => {
     return (
         <>
             <div className="flex flex-row justify-center mt-6">
@@ -40,7 +40,7 @@ export const PlacesComponent = ({ placeList, pickPlaces, astPlaceList }) => {
                             />
                         );
                     }}
-                    sx={{ width: "300px", borderColor: "#494c57" }}
+                    // sx={{ width: "300px", borderColor: "#494c57" }}
                 />
             </div>
         </>

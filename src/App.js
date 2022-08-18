@@ -39,11 +39,11 @@ import photoQar from "./img/karaganda1.jpg";
 import photoShym from "./img/shym.jpg";
 import photoAqt from "./img/aqtau.jpg";
 
-import axios from "axios";
+// import axios from "axios";
 // import { ClassNames } from "@emotion/react";
 
 // const BACKEND_URL = "http://localhost:8080/hotel";
-const BACKEND_URL = "https://tripcount-back-production.up.railway.app";
+// const BACKEND_URL = "https://tripcount-back-production.up.railway.app";
 
 // dialog card Material UI STARTS HERE
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
@@ -131,7 +131,7 @@ function Home() {
 }
 
 function Cards() {
-    const [parsed, setParsed] = React.useState(0);
+    // const [parsed, setParsed] = React.useState(0);
     const [house, setHouse] = React.useState(0);
     const [transport, setTransport] = React.useState(0);
     const [places, setPlaces] = React.useState(0);
@@ -149,7 +149,7 @@ function Cards() {
 
     // React.useEffect(() => {
     //     axios.get(`${BACKEND_URL}`).then((response) => {
-    //         parsed(response.data);
+    //         setParsed(response.data);
     //     });
     //     console.log(parsed);
     // }, []);
