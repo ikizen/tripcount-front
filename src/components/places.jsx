@@ -1,6 +1,6 @@
 import Autocomplete from "@mui/material/Autocomplete";
 import TextField from "@mui/material/TextField";
-import { REACT_APP_BACKEND_URL } from "../constants/constants";
+// import { REACT_APP_BACKEND_URL } from "../constants/constants";
 
 export const PlacesComponent = ({ placeList, pickPlaces, astPlaceList }) => {
     return (

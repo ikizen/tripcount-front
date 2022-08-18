@@ -3,7 +3,7 @@ import "./App.css";
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
@@ -21,9 +21,9 @@ import { PlacesComponent } from "./components/places";
 
 import { placeList } from "./data/place-list.js";
 import { astPlaceList } from "./data/ast";
-import { dayList } from "./data/day-list.js";
-import { houseList } from "./data/house-list";
-import { transportList } from "./data/transport-list";
+// import { dayList } from "./data/day-list.js";
+// import { houseList } from "./data/house-list";
+// import { transportList } from "./data/transport-list";
 
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -31,8 +31,8 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
-import Box from "@mui/material/Box";
-import ClickAwayListener from "@mui/material/ClickAwayListener";
+// import Box from "@mui/material/Box";
+// import ClickAwayListener from "@mui/material/ClickAwayListener";
 import photoAlm from "./img/almaty2.jpg";
 import photoAst from "./img/astana.jpg";
 import photoQar from "./img/karaganda1.jpg";
@@ -40,7 +40,7 @@ import photoShym from "./img/shym.jpg";
 import photoAqt from "./img/aqtau.jpg";
 
 import axios from "axios";
-import { ClassNames } from "@emotion/react";
+// import { ClassNames } from "@emotion/react";
 
 // const BACKEND_URL = "http://localhost:8080/hotel";
 const BACKEND_URL = "https://tripcount-back-production.up.railway.app";
